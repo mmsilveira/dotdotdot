@@ -14,6 +14,7 @@ sh AUR/install-keepassxc.sh
 
 echo "Installing category Development"
 #sh AUR/install-sublime-text-v*.sh
+sh AUR/install-nvm.sh
 sh AUR/install-neovim.sh
 
 

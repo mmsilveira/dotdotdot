@@ -4,7 +4,7 @@ set -e
 # Author	:	Moises Silveira
 ##################################################################################################################
 
-package="neovim-git"
+package="nvm"
 
 #----------------------------------------------------------------------------------
 
@@ -55,13 +55,9 @@ else
 
 	fi
 
-    # Install Neovim dependency
-    pip2 install pynvim
-    pip3 install pynvim
-
-    npm install -g neovim
-
-    gem install neovim
+    echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+    source ~/.zshrc
+    nvm install stable
 
 	# Just checking if installation was successful
 	if pacman -Qi $package &> /dev/null; then

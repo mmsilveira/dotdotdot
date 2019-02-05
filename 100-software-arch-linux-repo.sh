@@ -13,12 +13,13 @@ echo "Installing category Accessories"
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Development"
-#sudo pacman -S --noconfirm --needed atom  # A text editor is at the core of a developer's toolbox
-#sudo pacman -S --noconfirm --needed geany # Geany is a text editor using the GTK+ toolkit
-#sudo pacman -S --noconfirm --needed meld  # Meld is a visual diff and merge tool
-#sudo pacman -S --noconfirm --needed neovim # Vim-fork focused on extensibility and usability
-#sudo pacman -S --noconfirm --needed python2-neovim python-neovim # NeoVim dependencies
-# TODO: install nodejs and ruby dependencias
+#sudo pacman -S --noconfirm --needed atom              # A text editor is at the core of a developer's toolbox
+#sudo pacman -S --noconfirm --needed geany             # Geany is a text editor using the GTK+ toolkit
+#sudo pacman -S --noconfirm --needed meld              # Meld is a visual diff and merge tool
+sudo pacman -S --noconfirm --needed the_silver_searcher # A code searching tool similar to ack, with a focus on speed
+sudo pacman -S --noconfirm --needed python-pip          # The PyPA recommended tool for installing Python3 packages
+sudo pacman -S --noconfirm --needed python2-pip         # The PyPA recommended tool for installing Python2 packages
+sudo pacman -S --noconfirm --needed ruby                # A dynamic, open source programming language
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"

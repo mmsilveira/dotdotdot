@@ -1,0 +1,47 @@
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# THEME
+ZSH_THEME="mh"
+
+# PLUGINS
+plugins=(git zsh-completions)
+
+source $ZSH/oh-my-zsh.sh
+
+# ENVIRONMENT
+export PATH="$HOME/go/bin:$PATH"
+export PATH="/usr/local/opt/node@8/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+#export LOCAL_IP=`ifconfig en0 | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2`
+export SIMM_ID='56c50c2f1e88fb000482b70c'
+
+export CDPATH=:~/Projects/gitlab.neoway.com.br/malibu:~/Projects/gitlab.neoway.com.br/ponta-das-canas:~/Projects/gitlab.neoway.com.br/dungeons:~/Projects/gitlab.neoway.com.br/piratebay:~/Projects/gitlab.neoway.com.br/piratebay/simm-env/workspace/projects/src/gitlab.neoway.com.br
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$PATH:$HOME/.istio-1.0.3/bin"
+
+# Locale
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# Load
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+source $HOME/.azure/az.completion
+source <(kubectl completion zsh)
+source /usr/share/nvm/init-nvm.sh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Alias
+alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+alias nvim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+alias tf='terraform'
+alias lstun="ps -ef  | grep ssh | grep tun | awk '{print \"pid: \"\$2\" name: \"\$9}'"
+alias killtun="lstun | awk '{print \$2}' | xargs kill -15"
+alias kb="kubectl"
+alias screen-docker="screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty"
+alias jtags="ctags -R src && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:js$/d' tags"
+alias vpn="sudo openvpn --config /etc/openvpn/client.ovpn --auth-user-pass /etc/openvpn/auth.txt --auth-retry interact"
+alias gitk="gitk --all"
+alias trick="vim ~/Desktop/trick.md"
