@@ -32,6 +32,7 @@ echo "Installing category Internet"
 sh AUR/install-brave.sh
 sh AUR/install-google-chrome.sh
 sh AUR/install-dropbox.sh
+sh AUR/install-slack.sh
 
 
 echo "Installing category Multimedia"
@@ -47,7 +48,7 @@ echo "Installing category Other"
 
 
 echo "Installing category System"
-
+sh AUR/install-zsh.sh
 
 
 # these come always last

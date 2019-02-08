@@ -211,17 +211,17 @@ else
 		echo "!!!!!!!!!  "$package" has NOT been installed"
 		echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-	fi
+    fi
+
+    # Installation of OH-MY-ZSH from the github (best way to install!!)
+
+    echo "################################################################"
+    echo "downloading Oh-My-Zsh from github"
+    echo "################################################################"
+
+    wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+
+    ln -s $PWD/personal/zshrc ~/.zshrc
 
 fi
 
-
-# Installation of OH-MY-ZSH from the github (best way to install!!)
-
-echo "################################################################"
-echo "downloading Oh-My-Zsh from github"
-echo "################################################################"
-
-wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
-
-ln -s $PWD/zsh/zshrc ~/.zshrc
