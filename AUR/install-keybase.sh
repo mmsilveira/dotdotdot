@@ -4,7 +4,7 @@ set -e
 # Author	:	Moises Silveira
 ##################################################################################################################
 
-package="neovim-git"
+package="keybase-bin"
 
 #----------------------------------------------------------------------------------
 
@@ -54,13 +54,6 @@ else
 		packer -S --noconfirm --noedit  $package
 
 	fi
-
-    # Install Neovim dependency
-    sudo pacman -S xclip
-    sudo pip2 install pynvim
-    sudo pip3 install pynvim
-    npm install -g neovim
-    gem install neovim
 
 	# Just checking if installation was successful
 	if pacman -Qi $package &> /dev/null; then

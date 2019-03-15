@@ -16,6 +16,7 @@ echo "Installing category Development"
 #sh AUR/install-sublime-text-v*.sh
 sh AUR/install-nvm.sh
 sh AUR/install-neovim.sh
+sh AUR/install-postman.sh
 
 
 echo "Installing category Education"
@@ -31,7 +32,7 @@ echo "Installing category Internet"
 #sh AUR/install-vivaldi-and-ffmeg-codecs-v*.sh
 sh AUR/install-brave.sh
 sh AUR/install-google-chrome.sh
-sh AUR/install-dropbox.sh
+#sh AUR/install-dropbox.sh
 sh AUR/install-slack.sh
 
 

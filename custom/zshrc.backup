@@ -13,7 +13,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
-export PATH=$PATH:/home/msilveira/bin
 #export LOCAL_IP=`ifconfig en0 | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2`
 export SIMM_ID='56c50c2f1e88fb000482b70c'
 
@@ -31,7 +30,6 @@ autoload -U +X bashcompinit && bashcompinit
 source <(kubectl completion zsh)
 source /usr/share/nvm/init-nvm.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source '/home/msilveira/lib/azure-cli/az.completion'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Alias
@@ -46,4 +44,3 @@ alias jtags="ctags -R src && sed -i '' -E '/^(if|switch|function|module\.exports
 alias vpn="sudo openvpn --config /etc/openvpn/client.ovpn --auth-user-pass /etc/openvpn/auth.txt --auth-retry interact"
 alias gitk="gitk --all"
 alias trick="vim ~/Desktop/trick.md"
-

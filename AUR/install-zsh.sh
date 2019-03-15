@@ -221,7 +221,7 @@ else
 
     wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
-    ln -s $PWD/personal/zshrc ~/.zshrc
+    ln -s $PWD/custom/zshrc ~/.zshrc
 
 fi
 

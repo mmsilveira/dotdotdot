@@ -21,6 +21,8 @@ sudo pacman -S --noconfirm --needed python-pip          # The PyPA recommended t
 sudo pacman -S --noconfirm --needed python2-pip         # The PyPA recommended tool for installing Python2 packages
 sudo pacman -S --noconfirm --needed ruby                # A dynamic, open source programming language
 sudo pacman -S --noconfirm --needed docker              # It is a utility to pack, ship and run any application as a lightweight container
+sudo pacman -S --noconfirm --needed nginx
+sudo pacman -S --noconfirm --needed go
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
