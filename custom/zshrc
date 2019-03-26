@@ -17,7 +17,7 @@ export PATH=$PATH:/home/msilveira/bin
 #export LOCAL_IP=`ifconfig en0 | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2`
 export SIMM_ID='56c50c2f1e88fb000482b70c'
 
-export CDPATH=:~/Projects/gitlab.neoway.com.br/malibu:~/Projects/gitlab.neoway.com.br/ponta-das-canas:~/Projects/gitlab.neoway.com.br/dungeons:~/Projects/gitlab.neoway.com.br/piratebay:~/Projects/gitlab.neoway.com.br/piratebay/simm-env/workspace/projects/src/gitlab.neoway.com.br
+export CDPATH=:~/Projects/gitlab.neoway.com.br:~/Projects/gitlab.neoway.com.br/piratebay/simm-env/workspace/projects/src/gitlab.neoway.com.br
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$PATH:$HOME/.istio-1.0.3/bin"
 

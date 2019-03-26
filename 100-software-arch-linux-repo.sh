@@ -23,6 +23,7 @@ sudo pacman -S --noconfirm --needed ruby                # A dynamic, open source
 sudo pacman -S --noconfirm --needed docker              # It is a utility to pack, ship and run any application as a lightweight container
 sudo pacman -S --noconfirm --needed nginx
 sudo pacman -S --noconfirm --needed go
+sudo pacman -S --noconfirm --needed gnu-netcat
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
