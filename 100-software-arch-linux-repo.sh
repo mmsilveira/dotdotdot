@@ -24,6 +24,7 @@ sudo pacman -S --noconfirm --needed docker              # It is a utility to pac
 sudo pacman -S --noconfirm --needed nginx
 sudo pacman -S --noconfirm --needed go
 sudo pacman -S --noconfirm --needed gnu-netcat
+sudo pacman -S --noconfirm --needed dnsutils
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
