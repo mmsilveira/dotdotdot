@@ -17,6 +17,7 @@ echo "Installing category Development"
 sh AUR/install-nvm.sh
 sh AUR/install-neovim.sh
 sh AUR/install-postman.sh
+sh AUR/install-robo3t.sh
 
 
 echo "Installing category Education"
