@@ -38,9 +38,11 @@ sh AUR/install-slack.sh
 
 
 echo "Installing category Multimedia"
-#sh AUR/install-gradio-v*.sh     # online radio
-#sh AUR/install-peek-v*.sh       # GIF screeen record
-#sh AUR/install-radiotray-v*.sh  # online radio
+#sh AUR/install-gradio-v*.sh            # online radio
+#sh AUR/install-peek-v*.sh              # GIF screeen record
+#sh AUR/install-radiotray-v*.sh         # online radio
+sh AUR/install-simplescreenrecorder.sh # A screencasting program
+sh AUR/install-openshot.sh             # Video editor
 
 
 echo "Installing category Office"
