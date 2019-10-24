@@ -222,6 +222,10 @@ else
     wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
     ln -s $PWD/custom/zshrc ~/.zshrc
-
 fi
+
+sudo -s
+chsh -s /bin/zsh root
+chsh -s /bin/zsh msilveira
+chsh -s $(which zsh)
 
