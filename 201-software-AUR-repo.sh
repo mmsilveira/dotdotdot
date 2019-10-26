@@ -7,9 +7,6 @@ set -e
 # software from AUR (Arch User Repositories)
 # https://aur.archlinux.org/packages/
 
-echo "Installing category System"
-sh AUR/install-zsh.sh
-
 
 echo "Installing category Accessories"
 sh AUR/install-keepassxc.sh

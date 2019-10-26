@@ -55,9 +55,10 @@ else
 
 	fi
 
-    echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
-    source ~/.zshrc
-    nvm install stable
+	exec /bin/zsh
+        source ~/.zshrc
+	echo " > Install stable nodejs"
+        nvm install stable
 
 	# Just checking if installation was successful
 	if pacman -Qi $package &> /dev/null; then
