@@ -45,6 +45,7 @@ echo "Installing category Office"
 
 
 echo "Installing category Other"
+sh AUR/install-nerdfonts.sh
 
 
 

@@ -8,8 +8,6 @@ package="dropbox thunar-dropbox"
 
 #----------------------------------------------------------------------------------
 
-gpg --recv-key FC918B335044912E
-
 #checking if application is already installed or else install with aur helpers
 if pacman -Qi $package &> /dev/null; then
 
@@ -18,6 +16,8 @@ if pacman -Qi $package &> /dev/null; then
 		echo "################################################################"
 
 else
+
+    gpg --recv-key FC918B335044912E
 
 	#checking which helper is installed
 	if pacman -Qi yay &> /dev/null; then
