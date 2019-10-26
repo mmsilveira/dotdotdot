@@ -213,19 +213,5 @@ else
 
     fi
 
-    # Installation of OH-MY-ZSH from the github (best way to install!!)
-
-    echo "################################################################"
-    echo "downloading Oh-My-Zsh from github"
-    echo "################################################################"
-
-    wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
-
-    ln -s $PWD/custom/zshrc ~/.zshrc
 fi
-
-sudo -s
-chsh -s /bin/zsh root
-chsh -s /bin/zsh msilveira
-chsh -s $(which zsh)
 
