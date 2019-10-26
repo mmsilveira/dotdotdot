@@ -15,8 +15,8 @@ sh AUR/install-keepassxc.sh
 echo "Installing category Development"
 sh AUR/install-nvm.sh
 sh AUR/install-neovim.sh
-#sh AUR/install-postman.sh
-#sh AUR/install-robo3t.sh
+sh AUR/install-postman.sh
+sh AUR/install-robo3t.sh
 
 
 echo "Installing category Education"
@@ -29,9 +29,9 @@ echo "Installing category Graphics"
 
 
 echo "Installing category Internet"
-#sh AUR/install-google-chrome.sh
-#sh AUR/install-dropbox.sh
-#sh AUR/install-slack.sh
+sh AUR/install-google-chrome.sh
+sh AUR/install-dropbox.sh
+sh AUR/install-slack.sh
 
 
 echo "Installing category Multimedia"
