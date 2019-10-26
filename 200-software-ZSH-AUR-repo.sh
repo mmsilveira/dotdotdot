@@ -19,12 +19,15 @@ echo "################################################################"
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 ln -sf $PWD/custom/zshrc ~/.zshrc
 
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 echo "Configure ZSH"
 sudo chsh -s /bin/zsh root
 sudo chsh -s /bin/zsh msilveira
 
 # these come always last
-
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
