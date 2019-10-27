@@ -12,9 +12,10 @@ echo "Installing category Accessories"
 
 
 echo "Installing category Development"
-#sh personal/install-kubectl.sh
-#sh personal/install-nodejs-tools.sh
-#sh personal/install-azure-cli.sh
+sh manual/install-tig-git.sh
+#sh manual/install-kubectl.sh
+#sh manual/install-nodejs-tools.sh
+#sh manual/install-azure-cli.sh
 
 
 echo "Installing category Education"
