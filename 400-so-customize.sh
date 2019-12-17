@@ -1,9 +1,10 @@
 #!/bin/bash
+
 set -e
+
 ##################################################################################################################
 # Author	:	Moises Silveira
 ##################################################################################################################
-
 
 echo "> I3 Customization"
 echo ">> Set I3 config files"
@@ -21,8 +22,15 @@ if [ ! -e $HOME/.ssh ]; then
 fi
 
 echo ">> Configure Docker"
-sudo groupadd docker
-sudo usermod -aG docker $USER
+has_docker=$(grep -e "docker" /etc/group)
+echo $has_docker
+if [[ -z "$has_docker" ]]; then
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
+fi
+
+echo ">> Remove packages"
+sudo pacman -R --noconfirm palemoon-bin
 
 echo "################################################################"
 echo "####                 Customization applied                ######"
