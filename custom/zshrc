@@ -42,3 +42,7 @@ alias vpn="sudo openvpn --config /etc/openvpn/client.ovpn --auth-user-pass /etc/
 alias gitk="gitk --all"
 alias trick="vim ~/Desktop/trick.md"
 
+source /usr/share/nvm/init-nvm.sh
+
+export GOOGLE_CREDENTIALS=$(cat /run/user/1000/keybase/kbfs/private/msilveira/moises-silveira@foundation-2461-fbec9a8b5c1f.json)
+export SSH_PRIVATE_KEY=$(cat ~/.ssh/id_rsa)

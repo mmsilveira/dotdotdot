@@ -13,6 +13,7 @@ ln -sf $PWD/custom/i3/monitor ~/.i3/monitor
 
 echo "> Terminator Customization"
 echo ">> Set my terminator profile"
+mkdir -p ~/.config/terminator
 ln -sf $PWD/custom/terminator ~/.config/terminator/config
 
 echo "> System config"
