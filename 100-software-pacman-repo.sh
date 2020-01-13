@@ -38,7 +38,7 @@ sudo pacman -S --noconfirm --needed vlc # VLC is a free and open source cross-pl
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
-sudo pacman -S --noconfirm --needed libreoffice-fresh # LibreOffice Fresh is the stable version with the most recent features
+#sudo pacman -S --noconfirm --needed libreoffice-fresh # LibreOffice Fresh is the stable version with the most recent features
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
