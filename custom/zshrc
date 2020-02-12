@@ -32,6 +32,7 @@ autoload -U +X bashcompinit && bashcompinit
 
 # Alias
 alias nvim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
+alias nv='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 alias tf='terraform'
 alias lstun="ps -ef  | grep ssh | grep tun | awk '{print \"pid: \"\$2\" name: \"\$9}'"
 alias killtun="lstun | awk '{print \$2}' | xargs kill -15"

@@ -34,7 +34,10 @@ sudo pacman -S --noconfirm --needed keybase-gui # Security chat
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
-sudo pacman -S --noconfirm --needed vlc # VLC is a free and open source cross-platform multimedia player
+sudo pacman -S --noconfirm --needed vlc             # VLC is a free and open source cross-platform multimedia player
+sudo pacman -S --noconfirm --needed pulseaudio      # Sound system for POSIX OSes
+sudo pacman -S --noconfirm --needed pulseaudio-alsa # Sound system for POSIX OSes
+sudo pacman -S --noconfirm --needed pavucontrol     # Output and input control audio
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
