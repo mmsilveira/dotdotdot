@@ -13,6 +13,7 @@ sudo pacman -S --noconfirm --needed ruby                # A dynamic, open source
 sudo pacman -S --noconfirm --needed docker              # It is a utility to pack, ship and run any application as a lightweight container
 sudo pacman -S --noconfirm --needed go                  # Core compiler tools for the Go programming language
 sudo pacman -S --noconfirm --needed xclip               # Command line interface to the X11 clipboard
+sudo pacman -S --noconfirm --needed dbeaver             # Free universal SQL Client for developers and database administrators
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
