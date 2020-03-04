@@ -32,6 +32,7 @@ echo "Installing category Internet"
 sh AUR/install-google-chrome.sh
 sh AUR/install-dropbox.sh
 sh AUR/install-slack.sh
+sh AUR/install-keybase.sh
 
 
 echo "Installing category Multimedia"

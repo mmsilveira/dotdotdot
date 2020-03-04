@@ -29,8 +29,6 @@ sudo pacman -S --noconfirm --needed gnome-font-viewer # GNOME Fonts shows you th
 echo "Installing category Internet"
 sudo pacman -S --noconfirm --needed firefox # Browser
 sudo pacman -S --noconfirm --needed brave   # Browser
-sudo pacman -S --noconfirm --needed keybase # Security chat
-sudo pacman -S --noconfirm --needed keybase-gui # Security chat
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
