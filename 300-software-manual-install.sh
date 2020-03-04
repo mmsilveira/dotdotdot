@@ -13,6 +13,7 @@ echo "Installing category Accessories"
 
 echo "Installing category Development"
 sh manual/install-tig-git.sh
+sh manual/install-2fa.sh
 #sh manual/install-kubectl.sh
 #sh manual/install-nodejs-tools.sh
 #sh manual/install-azure-cli.sh
