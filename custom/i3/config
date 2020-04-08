@@ -139,7 +139,7 @@ bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
 bindsym $mod+Shift+s exec $config/monitor
-bindsym $mod+m move workspace to output up
+bindsym $mod+m move workspace to output left
 
 # Workspace names
 # to display names or symbols instead of plain workspace numbers you can use
