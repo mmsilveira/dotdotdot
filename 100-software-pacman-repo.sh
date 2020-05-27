@@ -14,6 +14,9 @@ sudo pacman -S --noconfirm --needed docker              # It is a utility to pac
 sudo pacman -S --noconfirm --needed go                  # Core compiler tools for the Go programming language
 sudo pacman -S --noconfirm --needed xclip               # Command line interface to the X11 clipboard
 sudo pacman -S --noconfirm --needed dbeaver             # Free universal SQL Client for developers and database administrators
+sudo pacman -S --noconfirm --needed jq                  # Commandline JSON processor
+sudo pacman -S --noconfirm --needed tcpdump             # Dump traffic on a network
+sudo pacman -S --noconfirm --needed ngrep               # Network grep
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
@@ -23,13 +26,12 @@ echo "Installing category Games"
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Graphics"
-sudo pacman -S --noconfirm --needed pinta             # Pinta is a free, open source program for drawing and image editing
 sudo pacman -S --noconfirm --needed gnome-font-viewer # GNOME Fonts shows you the fonts installed on your computer
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 sudo pacman -S --noconfirm --needed firefox # Browser
-sudo pacman -S --noconfirm --needed brave   # Browser
+#sudo pacman -S --noconfirm --needed brave   # Browser
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
