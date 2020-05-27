@@ -41,7 +41,7 @@ alias screen-docker="screen ~/Library/Containers/com.docker.docker/Data/com.dock
 alias jtags="ctags -R src && sed -i '' -E '/^(if|switch|function|module\.exports|it|describe).+language:js$/d' tags"
 alias vpn="sudo openvpn --config /etc/openvpn/client.ovpn --auth-user-pass /etc/openvpn/auth.txt --auth-retry interact"
 alias gitk="gitk --all"
-alias trick="vim ~/Desktop/trick.md"
+alias trick="nvim ~/Desktop/trick.md"
 
 source /usr/share/nvm/init-nvm.sh
 
