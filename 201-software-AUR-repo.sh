@@ -26,6 +26,7 @@ echo "Installing category Games"
 
 
 echo "Installing category Graphics"
+sh AUR/install-pinta.sh
 
 
 echo "Installing category Internet"
