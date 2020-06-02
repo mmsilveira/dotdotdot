@@ -14,9 +14,9 @@ echo "Installing category Accessories"
 echo "Installing category Development"
 sh manual/install-tig-git.sh
 sh manual/install-2fa.sh
-#sh manual/install-kubectl.sh
-#sh manual/install-nodejs-tools.sh
-#sh manual/install-azure-cli.sh
+sh manual/install-kubectl.sh
+sh manual/install-nodejs-tools.sh
+sh manual/install-azure-cli.sh
 
 
 echo "Installing category Education"
@@ -32,7 +32,7 @@ echo "Installing category Internet"
 
 
 echo "Installing category Multimedia"
-
+sh manual/install-zoom.sh
 
 echo "Installing category Office"
 
