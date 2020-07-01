@@ -30,6 +30,7 @@ sudo pacman -S --noconfirm --needed gnome-font-viewer # GNOME Fonts shows you th
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
+sudo pacman -S --noconfirm --needed chromium # Browser
 #sudo pacman -S --noconfirm --needed firefox # Browser
 #sudo pacman -S --noconfirm --needed brave   # Browser
 #sudo pacman -S --noconfirm --needed
