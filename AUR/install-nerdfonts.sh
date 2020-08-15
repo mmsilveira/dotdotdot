@@ -23,35 +23,35 @@ else
 		echo "################################################################"
 		echo "######### Installing with yay"
 		echo "################################################################"
-		yay -S -d --noconfirm $package
+		yay -S --noconfirm $package
 
 	elif pacman -Qi trizen &> /dev/null; then
 
 		echo "################################################################"
 		echo "######### Installing with trizen"
 		echo "################################################################"
-		trizen -S -d --noconfirm --needed --noedit $package
+		trizen -S --noconfirm --needed --noedit $package
 
 	elif pacman -Qi yaourt &> /dev/null; then
 
 		echo "################################################################"
 		echo "######### Installing with yaourt"
 		echo "################################################################"
-		yaourt -S -d --noconfirm $package
+		yaourt -S --noconfirm $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
 
 		echo "################################################################"
 		echo "######### Installing with pacaur"
 		echo "################################################################"
-		pacaur -S -d --noconfirm --noedit  $package
+		pacaur -S --noconfirm --noedit  $package
 
 	elif pacman -Qi packer &> /dev/null; then
 
 		echo "################################################################"
 		echo "######### Installing with packer"
 		echo "################################################################"
-		packer -S -d --noconfirm --noedit  $package
+		packer -S --noconfirm --noedit  $package
 
 	fi
 
