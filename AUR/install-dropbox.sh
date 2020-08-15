@@ -17,7 +17,8 @@ if pacman -Qi $package &> /dev/null; then
 
 else
 
-    gpg --recv-key FC918B335044912E
+    echo Import repo public key
+    curl https://linux.dropbox.com/fedora/rpm-public-key.asc | gpg --import
 
 	#checking which helper is installed
 	if pacman -Qi yay &> /dev/null; then
