@@ -1,6 +1,10 @@
 # dotdotdot
 Dotfiles to linux Manjaro with I3wm
 
+sudo pacman -Syyu
+sudo yay -S --noconfirm keybase-bin
+./setup-git.sh
+./100
 
 TO-DO
 ===
