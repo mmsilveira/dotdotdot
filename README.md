@@ -16,10 +16,10 @@ Install
 
 ```
 ./100-software-pacman-repo.sh
-./200
-./201
-./300
-./400
+./200-software-ZSH-AUR-repo.sh
+./201-software-AUR-repo.sh
+./300-software-manual-install.sh
+./400-so-customize.sh
 ```
 
 TO-DO

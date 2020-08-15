@@ -59,7 +59,6 @@ sudo pacman -S --noconfirm --needed dnsutils
 #sudo pacman -S --noconfirm --needed noto-fonts
 #sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 #sudo pacman -S --noconfirm --needed ttf-droid
-# TODO: NerdFonts Hack and SourceCode
 
 sudo pacman -S --noconfirm --needed terminator            # Terminator is a Linux terminal emulator that provides several features
 sudo pacman -S --noconfirm --needed thunar-archive-plugin # Allows you to create and extract archive files using the file context menus in the Thunar file manager
