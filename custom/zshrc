@@ -52,6 +52,7 @@ alias jtags="ctags -R src && sed -i '' -E '/^(if|switch|function|module\.exports
 alias vpn="sudo openvpn --config /etc/openvpn/client.ovpn --auth-user-pass /etc/openvpn/auth.txt --auth-retry interact"
 alias gitk="gitk --all"
 alias trick="nvim ~/Desktop/trick.md"
+alias git-clear="git branch --merged | egrep -v '(^\*|master)' | xargs git branch -d"
 
 # pbcopy/pbpaste
 alias pbcopy='xsel --clipboard --input'
