@@ -17,6 +17,7 @@ sudo pacman -S --noconfirm --needed dbeaver             # Free universal SQL Cli
 sudo pacman -S --noconfirm --needed jq                  # Commandline JSON processor
 sudo pacman -S --noconfirm --needed tcpdump             # Dump traffic on a network
 sudo pacman -S --noconfirm --needed ngrep               # Network grep
+sudo pacman -S --noconfirm --needed flameshot           # Powerful yet simple to use screenshot software
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
