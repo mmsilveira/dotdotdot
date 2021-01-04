@@ -20,7 +20,7 @@ source $ZSH/oh-my-zsh.sh
 # ENVIRONMENT
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 export PATH=$PATH:/home/msilveira/bin
 #export LOCAL_IP=`ifconfig en0 | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2`
 export SIMM_ID='56c50c2f1e88fb000482b70c'
