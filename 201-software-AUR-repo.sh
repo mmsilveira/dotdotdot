@@ -32,6 +32,7 @@ sh AUR/install-pinta.sh
 echo "Installing category Internet"
 sh AUR/install-dropbox.sh
 sh AUR/install-slack.sh
+sh AUR/install-brave.sh
 
 
 echo "Installing category Multimedia"
