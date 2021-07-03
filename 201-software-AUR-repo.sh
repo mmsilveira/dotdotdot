@@ -33,6 +33,7 @@ echo "Installing category Internet"
 sh AUR/install-dropbox.sh
 sh AUR/install-slack.sh
 sh AUR/install-brave.sh
+sh AUR/install-google-chrome.sh
 
 
 echo "Installing category Multimedia"
