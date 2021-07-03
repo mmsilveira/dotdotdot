@@ -23,7 +23,9 @@ elif [ $monitor_mode = "INTERNAL" ]; then
 else
     monitor_mode="all"
     # LEFT
-    # xrandr --output $INTERNAL_OUTPUT --auto --mode 1920x1080 --pos 0x0 --output $EXTERNAL_OUTPUT --auto --mode 1920x1080 --pos -1920x0
+    #xrandr --output $INTERNAL_OUTPUT --auto --mode 1920x1080 --pos 0x0 --output $EXTERNAL_OUTPUT --auto --mode 1920x1080 --pos -1920x0
+    # RIGHT
+    #xrandr --output $INTERNAL_OUTPUT --auto --mode 1920x1080 --pos 0x0 --output $EXTERNAL_OUTPUT --auto --mode 1920x1080 --pos 1920x0
     # TOP
     xrandr --output $INTERNAL_OUTPUT --auto --mode 1920x1080 --pos 0x0 --output $EXTERNAL_OUTPUT --auto --mode 1920x1080 --pos 0x-1080
 fi
