@@ -56,7 +56,6 @@ else
 	fi
 
 	echo " > Init NVM"
-	echo "source /usr/share/nvm/init-nvm.sh" >> ~/.zshrc
 	echo " > Install stable nodejs"
         /bin/zsh -i -c "source ~/.zshrc"
         /bin/zsh -i -c "nvm install stable"
