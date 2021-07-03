@@ -18,6 +18,7 @@ sudo pacman -S --noconfirm --needed jq                  # Commandline JSON proce
 sudo pacman -S --noconfirm --needed tcpdump             # Dump traffic on a network
 sudo pacman -S --noconfirm --needed ngrep               # Network grep
 sudo pacman -S --noconfirm --needed flameshot           # Powerful yet simple to use screenshot software
+sudo pacman -S --noconfirm --needed tmate               # Instant terminal sharing
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
@@ -31,7 +32,7 @@ sudo pacman -S --noconfirm --needed gnome-font-viewer # GNOME Fonts shows you th
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
-sudo pacman -S --noconfirm --needed chromium # Browser
+#sudo pacman -S --noconfirm --needed chromium # Browser
 #sudo pacman -S --noconfirm --needed firefox # Browser
 #sudo pacman -S --noconfirm --needed
 
