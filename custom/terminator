@@ -1,5 +1,15 @@
 [global_config]
 [keybindings]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.74
+    cursor_color = "#aaaaaa"
+    font = SauceCodePro Nerd Font Medium 10
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollback_infinite = True
+    use_system_font = False
 [layouts]
   [[default]]
     [[[child1]]]
@@ -9,10 +19,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    cursor_color = "#aaaaaa"
-    font = SauceCodePro Nerd Font Medium 10
-    scrollback_infinite = True
-    show_titlebar = False
-    use_system_font = False
