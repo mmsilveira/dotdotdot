@@ -37,6 +37,11 @@ fi
 echo ">> Remove packages"
 sudo pacman -Rsnu --noprogressbar --noconfirm palemoon-bin
 
+echo ">> Set Default Browser"
+sed -i.backup 's/userapp-Pale Moon/google-chrome/' .config/mimeapps.list
+xdg-settings set default-web-browser google-chrome.desktop
+sudo xdg-settings set default-web-browser google-chrome.desktop
+
 echo "################################################################"
 echo "####                 Customization applied                ######"
 echo "################################################################"
