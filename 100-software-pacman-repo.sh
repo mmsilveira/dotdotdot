@@ -44,8 +44,8 @@ sudo pacman -S --noconfirm --needed pavucontrol     # Output and input control a
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
-sudo pacman -S --noconfirm --needed libreoffice-fresh # LibreOffice Fresh is the stable version with the most recent features
-sudo pacman -S --noconfirm --needed rofimoji          # A simple emoji and character picker for rofi 😀
+sudo pacman -S --noconfirm --needed libreoffice-fresh                           # LibreOffice Fresh is the stable version with the most recent features
+sudo pacman -S --noconfirm --needed rofi rofimoji noto-fonts-emoji xdotool xsel # A simple emoji and character picker for rofi 😀
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
